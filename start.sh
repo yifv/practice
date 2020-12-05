@@ -1,5 +1,5 @@
 # 拉取代码
-git phull
+git pull
 
 # 安装依赖和打包
 yarn --registry=https://registry.npm.taobao.org/ && yarn build
