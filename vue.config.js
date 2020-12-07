@@ -1,6 +1,5 @@
 const path = require('path');
 const publicPath = process.env.NODE_ENV === 'development' ? '/' : './';
-
 function resolve(dir) {
     return path.join(__dirname, dir);
 }
